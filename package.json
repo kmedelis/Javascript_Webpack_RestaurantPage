@@ -2,21 +2,29 @@
   "name": "WebpackImplementation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmedelis/Javascript_Webpack_RestaurantPage.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
+  "bugs": {
+    "url": "https://github.com/kmedelis/Javascript_Webpack_RestaurantPage/issues"
   },
+  "homepage": "https://github.com/kmedelis/Javascript_Webpack_RestaurantPage#readme",
   "devDependencies": {
     "css-loader": "^6.5.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
