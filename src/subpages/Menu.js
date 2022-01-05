@@ -1,3 +1,5 @@
 export default function printMenu() {
-    console.log('Cia yra meniu puslapis');
+    const container = document.querySelector('#mainBody');
+    container.innerHTML = '';
+    container.innerHTML = 'cia yra Meniu'
   }

@@ -5,7 +5,7 @@ module.exports = {
     index: './src/index.js',
     print: './src/subpages/print.js',
     menu: './src/subpages/Menu.js',
-    contact: './src/subpages/Contant.js',
+    contact: './src/subpages/Contact.js',
     about: './src/subpages/About.js'
     },
   output: {

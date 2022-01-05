@@ -1,3 +1,6 @@
 export default function printAbout() {
-    console.log('Cia yra apie puslapis');
+    const container = document.querySelector('#mainBody');
+    // removes any text writtent before
+    container.innerHTML = '';
+    container.innerHTML = 'cia yra Apie'
   }

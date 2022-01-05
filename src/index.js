@@ -8,23 +8,29 @@ import printMenu from './subpages/Menu.js';
 
 
 function component() {
+
+    // creates  main div
     const element = document.createElement('div');  
     element.classList.add('mainBackground');
     element.appendChild(header(element));
     
-    // adds image
-    const myIcon = new Image();
-    myIcon.src = Icon;
-    element.appendChild(myIcon);
+    // adds image background
+    // const myIcon = new Image();
+    // myIcon.src = Icon;
+    // element.appendChild(myIcon);
 
+    // create div for the main content
+    const mainBody = document.createElement('div');
+    mainBody.setAttribute("id", "mainBody");
+    element.appendChild(mainBody);
     return element;
+
   }
 
 
 function header() {
   const header = document.createElement('header');
   header.classList.add('header');
-
 
   // edit this to change the main name
   const mainText = document.createElement('mainText');

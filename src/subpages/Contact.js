@@ -1,3 +1,5 @@
 export default function printContact() {
-    console.log('Cia yra kontaktu puslapis');
-  }
+    const container = document.querySelector('#mainBody');
+    container.innerHTML = '';
+    container.innerHTML = 'cia yra Kontaktai'
+}
